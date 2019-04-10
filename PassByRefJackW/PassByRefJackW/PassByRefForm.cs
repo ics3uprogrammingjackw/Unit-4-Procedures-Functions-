@@ -16,5 +16,26 @@ namespace PassByRefJackW
         {
             InitializeComponent();
         }
+
+        private void Round(ref double number, int inputDecimal)
+        {
+            number = number * (10 ^ inputDecimal);
+
+            number = number + 0.5;
+
+            Math.Truncate(number);
+
+            number = number / (10 ^ inputDecimal);
+
+            MessageBox.Show("The rounded number is: " + number, "Rounded number");
+
+        }
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            double number = Convert.ToDouble(txtNumber.Text);
+            int inputDecimal = Convert.ToInt32(nudDecimal.Value);
+
+            Round(ref number, inputDecimal);
+        }
     }
 }
