@@ -85,7 +85,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(505, 254);
+            this.ClientSize = new System.Drawing.Size(424, 191);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.nudDecimal);
             this.Controls.Add(this.lblDecimal);
