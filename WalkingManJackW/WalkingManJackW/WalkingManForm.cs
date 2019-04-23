@@ -77,7 +77,6 @@ namespace WalkingManJackW
             {
 
                 if (pictureFrameCounter == 1)
-
                 {
 
                     this.picWalkingMan.Image = Properties.Resources.walk1;
@@ -87,7 +86,6 @@ namespace WalkingManJackW
 
 
                 else if (pictureFrameCounter == 2)
-
                 {
 
                     this.picWalkingMan.Image = Properties.Resources.walk2;
@@ -97,7 +95,6 @@ namespace WalkingManJackW
 
 
                 else if (pictureFrameCounter == 3)
-
                 {
 
                     this.picWalkingMan.Image = Properties.Resources.walk3;
@@ -107,7 +104,6 @@ namespace WalkingManJackW
 
 
                 else if (pictureFrameCounter == 4)
-
                 {
 
                     this.picWalkingMan.Image = Properties.Resources.walk4;
@@ -117,7 +113,6 @@ namespace WalkingManJackW
 
 
                 else if (pictureFrameCounter == 5)
-
                 {
 
                     this.picWalkingMan.Image = Properties.Resources.walk5;
@@ -127,7 +122,6 @@ namespace WalkingManJackW
 
 
                 else if (pictureFrameCounter == 6)
-
                 {
 
                     this.picWalkingMan.Image = Properties.Resources.walk6;
@@ -137,7 +131,6 @@ namespace WalkingManJackW
 
 
                 else if (pictureFrameCounter == 7)
-
                 {
 
                     this.picWalkingMan.Image = Properties.Resources.walk7;
@@ -147,7 +140,6 @@ namespace WalkingManJackW
 
 
                 else if (pictureFrameCounter == 8)
-
                 {
 
                     this.picWalkingMan.Image = Properties.Resources.walk8;
@@ -157,7 +149,6 @@ namespace WalkingManJackW
 
 
                 else if (pictureFrameCounter == 9)
-
                 {
 
                     this.picWalkingMan.Image = Properties.Resources.walk9;
@@ -167,7 +158,6 @@ namespace WalkingManJackW
 
 
                 else if (pictureFrameCounter == 10)
-
                 {
 
                     this.picWalkingMan.Image = Properties.Resources.walk10;
