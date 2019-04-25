@@ -28,47 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnGenerate = new System.Windows.Forms.Button();
-            this.lblInstructions = new System.Windows.Forms.Label();
+            this.picWalkingMan = new System.Windows.Forms.PictureBox();
+            this.btnWalk = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.picWalkingMan)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnGenerate
+            // picWalkingMan
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(237, 211);
-            this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(75, 23);
-            this.btnGenerate.TabIndex = 1;
-            this.btnGenerate.Text = "Start";
-            this.btnGenerate.UseVisualStyleBackColor = true;
-            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
+            this.picWalkingMan.Image = global::WalkingManJackW.Properties.Resources.walk10;
+            this.picWalkingMan.Location = new System.Drawing.Point(174, 105);
+            this.picWalkingMan.Name = "picWalkingMan";
+            this.picWalkingMan.Size = new System.Drawing.Size(177, 160);
+            this.picWalkingMan.TabIndex = 0;
+            this.picWalkingMan.TabStop = false;
+            this.picWalkingMan.Click += new System.EventHandler(this.picWalkingMan_Click);
             // 
-            // lblInstructions
+            // btnWalk
             // 
-            this.lblInstructions.AutoSize = true;
-            this.lblInstructions.Location = new System.Drawing.Point(170, 9);
-            this.lblInstructions.Name = "lblInstructions";
-            this.lblInstructions.Size = new System.Drawing.Size(216, 13);
-            this.lblInstructions.TabIndex = 2;
-            this.lblInstructions.Text = "Click on a picture box to make the man walk";
+            this.btnWalk.Location = new System.Drawing.Point(220, 284);
+            this.btnWalk.Name = "btnWalk";
+            this.btnWalk.Size = new System.Drawing.Size(75, 23);
+            this.btnWalk.TabIndex = 1;
+            this.btnWalk.Text = "Walk";
+            this.btnWalk.UseVisualStyleBackColor = true;
+            this.btnWalk.Click += new System.EventHandler(this.btnWalk_Click);
             // 
             // frmWalkingMan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(555, 433);
-            this.Controls.Add(this.lblInstructions);
-            this.Controls.Add(this.btnGenerate);
+            this.Controls.Add(this.btnWalk);
+            this.Controls.Add(this.picWalkingMan);
             this.Name = "frmWalkingMan";
             this.Text = "Walking Man by Jack W";
-            this.Load += new System.EventHandler(this.frmWalkingMan_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picWalkingMan)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button btnGenerate;
-        private System.Windows.Forms.Label lblInstructions;
+
+        private System.Windows.Forms.PictureBox picWalkingMan;
+        private System.Windows.Forms.Button btnWalk;
     }
 }
 
